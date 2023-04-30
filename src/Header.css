@@ -1,0 +1,51 @@
+.header{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em 0 2.5em;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header__left ul{
+    display: flex;
+    align-items: center;
+}
+
+.header__left li a{
+    padding: 10px;
+    margin: 10px;
+    color: #808080;
+}
+
+.header__left li a.active{
+    color: #fd4500;
+    border-bottom: 2px solid #fd4500;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right > *{
+    margin-left: 10px;
+}
+
+.header__right > img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.header__right > i{
+    font-size: medium;
+    color: #808080;
+}
+
+.header__right > .header__right > span{
+    margin-right: 10px;
+}
